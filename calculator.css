@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+}
+
+.calculator {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  max-width: fit-content;
+  padding: 15px;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 15px;
+  font-weight: bold;
+  background-color: aliceblue;
+  margin: 6px;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: rgb(231 238 250);
+}
+
+.text-danger {
+  color: red;
+}
+
+.w-21px {
+  width: 21px;
+}
+
+.w-16px {
+  width: 16px;
+}
+
+.screen {
+  width: 100%;
+}
+
+.screen input {
+  text-align: right;
+  width: 100%;
+  max-width: -webkit-fill-available;
+}
