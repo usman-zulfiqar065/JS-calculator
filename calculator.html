@@ -12,42 +12,42 @@
         <h3>Sceintific Calculator</h3>
       </div>
       <div class="row">
-        <div class="screen"><input type="text" name="fname" id="screen"></div>
+        <div class="screen" id="screen-parent"><input type="text" name="fname" id="screen"></div>
       </div>
       <div class="row">
-        <button class="btn text-danger w-50px">C</button>
-        <button class="btn">&#8730;</button>
-        <button class="btn">(</button>
-        <button class="btn">)</button>
-        <button class="btn text-danger w-44px"><i class="bi bi-x-square"></i></button>
+        <button onclick="clearValue()" class="btn text-danger w-50px">C</button>
+        <button onclick="addValue('&#8730')" class="btn">&#8730;</button>
+        <button onclick="addValue('(')" class="btn">(</button>
+        <button onclick="addValue(')')" class="btn">)</button>
+        <button onclick="removeLast()" class="btn text-danger w-44px"><i class="bi bi-x-square"></i></button>
       </div>
       <div class="row">
-        <button class="btn w-50px">pi</button>
-        <button class="btn">7</button>
-        <button class="btn">8</button>
-        <button class="btn">9</button>
-        <button class="btn w-44px">/</button>
+        <button onclick="addValue('&#928')" class="btn w-50px">&#928</button>
+        <button onclick="addValue(7)" class="btn">7</button>
+        <button onclick="addValue(8)" class="btn">8</button>
+        <button onclick="addValue(9)" class="btn">9</button>
+        <button onclick="addValue('/')" class="btn w-44px"><i class="bi bi-slash-lg"></i></button>
       </div>
       <div class="row">
-        <button class="btn w-50px">tan</button>
-        <button class="btn">4</button>
-        <button class="btn">5</button>
-        <button class="btn">6</button>
-        <button class="btn w-44px"><i class="bi bi-dash-lg"></i></button>
+        <button onclick="addValue('tan')" class="btn w-50px">tan</button>
+        <button onclick="addValue(4)" class="btn">4</button>
+        <button onclick="addValue(5)" class="btn">5</button>
+        <button onclick="addValue(6)" class="btn">6</button>
+        <button onclick="addValue('-')" class="btn w-44px"><i class="bi bi-dash-lg"></i></button>
       </div>
       <div class="row">
-        <button class="btn w-50px">cos</button>
-        <button class="btn">1</button>
-        <button class="btn">2</button>
-        <button class="btn">3</button>
-        <button class="btn w-44px"><i class="bi bi-slash-lg"></i></button>
+        <button onclick="addValue('Cos')" class="btn w-50px">cos</button>
+        <button onclick="addValue(1)" class="btn">1</button>
+        <button onclick="addValue(2)" class="btn">2</button>
+        <button onclick="addValue(3)" class="btn">3</button>
+        <button onclick="addValue('+')" class="btn w-44px"><i class="bi bi-plus-lg"></i></button>
       </div>
       <div class="row">
-        <button class="btn w-50px">sin</button>
-        <button class="btn">.</button>
-        <button class="btn">0</button>
-        <button class="btn"><i class="bi bi-x-lg"></i></button>
-        <button class="btn w-44px">=</button>
+        <button onclick="addValue('sin')" class="btn w-50px">sin</button>
+        <button onclick="addValue('.')" class="btn">.</button>
+        <button onclick="addValue(0)" class="btn">0</button>
+        <button onclick="addValue('*')" class="btn"><i class="bi bi-x-lg"></i></button>
+        <button onclick="processData()" class="btn w-44px">=</button>
       </div>
     </div>
   </body>
