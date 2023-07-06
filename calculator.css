@@ -15,10 +15,9 @@ body {
   padding: 15px;
   font-weight: bold;
   background-color: aliceblue;
-  margin: 6px;
   border-radius: 6px;
   border: none;
-  width: 40px;
+  width: 100%;
 }
 
 .btn:hover {
@@ -27,14 +26,6 @@ body {
 
 .text-danger {
   color: red;
-}
-
-.w-50px {
-  width: 50px;
-}
-
-.w-44px {
-  width: 44px;
 }
 
 .h-107px {
