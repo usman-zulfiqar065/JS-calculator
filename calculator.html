@@ -12,10 +12,10 @@
         <th colspan="5"><h3>Scientific Calculator</h3></th>
       </tr>
       <tr>
-        <td colspan="5"><div class="screen" id="screen-parent"><input type="text" name="fname" id="screen"></div></td>
+        <td colspan="5"><div class="screen"><input type="text" id="screen-input"></div></td>
       </tr>
       <tr>
-        <td><button onclick="clearValue()" class="btn text-danger">C</button></td>
+        <td><button onclick="clearScreen()" class="btn text-danger">C</button></td>
         <td><button onclick="addValue('sqrt(')" class="btn">&#8730;</button></td>
         <td><button onclick="addValue('(')" class="btn">(</button></td>
         <td><button onclick="addValue(')')" class="btn">)</button></td>
@@ -50,7 +50,7 @@
         <td rowspan="2"><button onclick="calculate()" class="btn h-107px">=</button></td>
       </tr>
       <tr>
-        <td><button onclick="addValue('Math.E')" class="btn text-danger">e</button></td>
+        <td><button onclick="addValue('E')" class="btn text-danger">e</button></td>
         <td><button onclick="addValue('log(')" class="btn">log</button></td>
         <td><button onclick="addValue('log10(')" class="btn">log10</button></td>
         <td><button onclick="addValue('%')" class="btn">%</button></td>
